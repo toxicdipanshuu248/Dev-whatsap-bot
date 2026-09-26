@@ -7,15 +7,15 @@
 
 // Brand name — appears in menus, headers, bot display names, etc.
 // Does NOT affect spam templates (those are hardcoded).
-const BRAND_NAME = 'FIREBALL';
+const BRAND_NAME = 'DEV';
 
 // Telegram Bot Token — get it from @BotFather on Telegram
-const TELEGRAM_BOT_TOKEN = '';
+const TELEGRAM_BOT_TOKEN = '8571782559:AAEtLtCXAP9LvGVGlm58y5qDBRdhWa2Mb1A';
 
 // Telegram Owner ID — the first user to run /start becomes owner.
 // You can also set it manually here (your Telegram numeric user ID).
 // Leave empty to auto-set on first /start.
-const TELEGRAM_OWNER_ID = '';
+const TELEGRAM_OWNER_ID = '5206554804';
 
 // WhatsApp command prefix — the character before every command
 // Example: !menu, !txt, !target (where "!" is the prefix)
