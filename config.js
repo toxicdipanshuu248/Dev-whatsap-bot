@@ -1,27 +1,19 @@
 // =============================================================
 //  FIREBALL REMASTERED — CONFIGURATION
 // =============================================================
-//  Edit these values before running the bot.
-//  All settings are in English for easy understanding.
-// =============================================================
 
-// Brand name — appears in menus, headers, bot display names, etc.
-// Does NOT affect spam templates (those are hardcoded).
-const BRAND_NAME = 'DEV';
+// Brand name — appears in menus, headers, bot display names
+const BRAND_NAME = 'FIREBALL';
 
-// Telegram Bot Token — get it from @BotFather on Telegram
-const TELEGRAM_BOT_TOKEN = '8571782559:AAEtLtCXAP9LvGVGlm58y5qDBRdhWa2Mb1A';
+// Telegram Bot Token — from @BotFather OR Railway Environment Variable
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '';
 
-// Telegram Owner ID — the first user to run /start becomes owner.
-// You can also set it manually here (your Telegram numeric user ID).
-// Leave empty to auto-set on first /start.
-const TELEGRAM_OWNER_ID = '5206554804';
+// Telegram Owner ID — auto-set on first /start
+const TELEGRAM_OWNER_ID = process.env.TELEGRAM_OWNER_ID || '';
 
-// WhatsApp command prefix — the character before every command
-// Example: !menu, !txt, !target (where "!" is the prefix)
-const CMD_PREFIX = '!';
+// WhatsApp command prefix
+const CMD_PREFIX = process.env.CMD_PREFIX || '!';
 
-// Export all settings — do NOT edit below this line
 export {
     BRAND_NAME,
     TELEGRAM_BOT_TOKEN,
