@@ -4,6 +4,7 @@
   "description": "FIREBALL REMASTERED ENGINE — Encrypted WhatsApp Bot with Telegram Control",
   "main": "bot.js",
   "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node bot.js",
     "dev": "node --watch bot.js"
