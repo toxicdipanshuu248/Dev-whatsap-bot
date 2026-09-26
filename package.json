@@ -1,0 +1,22 @@
+{
+  "name": "fireball-remastered",
+  "version": "1.0.0",
+  "description": "FIREBALL REMASTERED ENGINE — Encrypted WhatsApp Bot with Telegram Control",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.6.0",
+    "p-queue": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "FIREBALL",
+  "license": "Private"
+}
