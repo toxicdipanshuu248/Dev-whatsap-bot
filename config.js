@@ -14,7 +14,7 @@ const TELEGRAM_OWNER_ID = process.env.TELEGRAM_OWNER_ID || '';
 // WhatsApp command prefix
 const CMD_PREFIX = process.env.CMD_PREFIX || '!';
 
-export {
+module.exports = {
     BRAND_NAME,
     TELEGRAM_BOT_TOKEN,
     TELEGRAM_OWNER_ID,
